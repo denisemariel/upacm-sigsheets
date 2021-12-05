@@ -23,8 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'a+qx*2%79c%=kg@er0q8r2my(_anre6w4336bo2!m_2di5y6wy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
+DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', '0.0.0.0', 'upacm-sigsheet.herokuapp.com']
 
 
